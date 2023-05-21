@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar .navbar-title {
+    color: black;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+  }
+  
